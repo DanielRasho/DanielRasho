@@ -11,15 +11,15 @@ import ContactsView from './views/ContactsView.vue'
 const navLinks = [
   {
     text: 'Contacts',
-    id: 'contacts-section'
+    id: '#contacts-section'
   },
   {
     text: 'Projects',
-    id: 'projects-section'
+    id: '#projects-section'
   },
   {
     text: 'Experience',
-    id: 'experience-section'
+    id: '#experience-section'
   }
 ]
 

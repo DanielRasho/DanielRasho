@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <a v-for="link in links" :key="link.id" :href="`#${link.id}`">
+    <a v-for="link in links" :key="link.id" @click="handleScrollTo(link.id)">
       <span :style="`--content: \'${link.text}\';`">
         {{ link.text }}
       </span>
@@ -8,6 +8,10 @@
   </nav>
 </template>
 <script setup>
+import { useLenisStore } from '@/stores/lennis'
+
+const lennis = useLenisStore()
+
 const props = defineProps({
   links: {
     type: Array,
@@ -15,6 +19,10 @@ const props = defineProps({
     default: () => []
   }
 })
+
+function handleScrollTo(element) {
+  lennis.scrollTo(element)
+}
 </script>
 
 <style>
