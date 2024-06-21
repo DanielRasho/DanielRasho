@@ -6,6 +6,8 @@ I am a CS student dedicated to full stack software development, although I have 
 
 I describe myself as an enthusiast for learning new things, and passionate about teaching and dissemination.
 
+**My portfolio**: [HERE](https://danielrasho.github.io/DanielRasho/)
+
 **Personal Account:** [Smaugthur](https://github.com/Smaugthur)
 
 ---
