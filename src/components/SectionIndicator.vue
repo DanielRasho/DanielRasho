@@ -32,7 +32,6 @@ onMounted(() => {
       end: section.end ? section.end : 'bottom-=10px bottom',
       trigger: section.id,
       invalidateOnRefresh: true,
-      markers: true,
       onEnter: () => {
         executeAnimation(section)
       },
