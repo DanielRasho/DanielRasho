@@ -62,7 +62,7 @@ onMounted(() => {
 </script>
 <style scoped>
 #contacts-section {
-  height: 105vh;
+  height: 100vh;
   width: 100vw;
   background-color: var(--white);
   display: flex;
