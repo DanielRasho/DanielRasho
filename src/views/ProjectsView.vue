@@ -19,6 +19,9 @@
               <img src="../assets/images/noSignalOverlay.webp" alt="hello" />
             </div>
             <div class="image-item">
+              <img src="../assets/images/Therapisttrack.webp" alt="hello" />
+            </div>
+            <div class="image-item">
               <img src="../assets/images/Jlisp.webp" alt="hello" />
             </div>
             <div class="image-item">
@@ -34,6 +37,11 @@
     </div>
     <div class="projects__info">
       <div class="info-track" :style="itemIndexStyle">
+        <ProjectItem
+          title="Therapisttrack"
+          description="A medical records storage system. I'm the current project leader for this project under development."
+          link="https://github.com/TherapistTrack/Therapisttrack-App"
+        />
         <ProjectItem
           title="Lisp Interpreter"
           description="A small implementation of Lisp on Java supporting many operations, and capable of detecting syntax erros."
