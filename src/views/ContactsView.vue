@@ -39,6 +39,11 @@
               href="https://dev.to/danielrasho"
               icon-id="fa-solid fa-paperclip"
             />
+            <ContactLink
+              text="Graphic Design Portfolio"
+              href="https://www.behance.net/danielrayo3"
+              icon-id="fa-solid fa-paperclip"
+            />
           </div>
         </div>
       </div>
