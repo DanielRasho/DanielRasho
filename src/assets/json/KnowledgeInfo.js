@@ -53,6 +53,10 @@ const windows = [
       {
         url: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg',
         name: 'mongodb.js'
+      },
+      {
+        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg',
+        name: 'Docker.yaml'
       }
     ]
   },

@@ -1,9 +1,11 @@
 <template>
   <div class="pc-icon">
-    <div class="icon-container">
-      <img class="icon" :src="icon" alt="" />
+    <div class="a">
+      <div class="icon-container">
+        <img class="icon" :src="icon" alt="" />
+      </div>
+      <span class="text">{{ text }}</span>
     </div>
-    <span class="text">{{ text }}</span>
   </div>
 </template>
 <script setup>
@@ -13,18 +15,26 @@ const props = defineProps({
 })
 </script>
 <style scoped>
+.a {
+  opacity: 1;
+  width: 100%;
+  height: fit-content;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+.a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  outline: 1px solid black;
+}
 .pc-icon {
-  width: 15ch;
+  width: 17ch;
   aspect-ratio: 1 / 1.4;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   margin-left: 3rem;
-}
-.pc-icon :hover {
-  cursor: pointer;
-  opacity: 0.9;
 }
 .icon-container {
   width: 90%;
