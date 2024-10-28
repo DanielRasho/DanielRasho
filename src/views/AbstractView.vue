@@ -7,8 +7,8 @@
       <div class="dev-title">DEV</div>
       <div class="dev-description">
         <div>
-          Im a CS student dedicated to full stack software development, interested in graphics and
-          simulation.
+          Frontend, Backend? I enjoy working in both. I'm an active Linux user, interested in the
+          field of simulation and graphics.
         </div>
       </div>
     </div>
@@ -19,8 +19,8 @@
       <div class="design-title">DESIGN</div>
       <div class="design-description">
         <div>
-          I have also developed in the world of graphic arts, which gives me good intuition to
-          Design and develop good-looking UI.
+          I have also worked as a Graphic Design freelancer, which gives me good intuition to design
+          and develop good-looking UI and UX.
         </div>
       </div>
     </div>
