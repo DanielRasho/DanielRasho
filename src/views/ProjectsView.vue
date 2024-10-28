@@ -22,13 +22,13 @@
               <img src="../assets/images/Therapisttrack.webp" alt="hello" />
             </div>
             <div class="image-item">
+              <img src="../assets/images/Therapisttrack.webp" alt="hello" />
+            </div>
+            <div class="image-item">
               <img src="../assets/images/Jlisp.webp" alt="hello" />
             </div>
             <div class="image-item">
               <img src="../assets/images/WireWiz.webp" alt="hello" />
-            </div>
-            <div class="image-item">
-              <img src="../assets/images/Chessy.webp" alt="hello" />
             </div>
           </div>
         </div>
@@ -43,6 +43,11 @@
           link="https://github.com/TherapistTrack/Therapisttrack-App"
         />
         <ProjectItem
+          title="IAmHuman Bot"
+          description="A Discord bot developed in Go and Vue for managing the CS community server in Universidad del Valle de Guatemala"
+          link="https://github.com/ElrohirGT/Chessy"
+        />
+        <ProjectItem
           title="Lisp Interpreter"
           description="A small implementation of Lisp on Java supporting many operations, and capable of detecting syntax erros."
           link="https://github.com/DiegoLinares11/LISP-Project"
@@ -51,11 +56,6 @@
           title="Wire Wiz"
           description="A simulator for electrons flow through a wire. Made with Vue and love"
           link="https://github.com/DanielRasho/wireWiz"
-        />
-        <ProjectItem
-          title="Chessy"
-          description="An chess online of cute ghosts! I made the designs and frontend."
-          link="https://github.com/ElrohirGT/Chessy"
         />
       </div>
     </div>
@@ -114,12 +114,14 @@ onMounted(() => {
       overlay.style.visibility = 'hidden'
     },
     onUpdate: (self) => {
-      if (self.progress.toFixed(1) == 0.0) {
+      if (self.progress.toFixed(2) == 0.0) {
         itemIndex.value = 0
-      } else if (self.progress.toFixed(1) == 0.3) {
+      } else if (self.progress.toFixed(2) == 0.25) {
         itemIndex.value = 1
-      } else if (self.progress.toFixed(1) == 0.6) {
+      } else if (self.progress.toFixed(2) == 0.5) {
         itemIndex.value = 2
+      } else if (self.progress.toFixed(2) == 0.75) {
+        itemIndex.value = 3
       }
     }
   })
