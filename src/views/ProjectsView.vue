@@ -22,7 +22,7 @@
               <img src="../assets/images/Therapisttrack.webp" alt="hello" />
             </div>
             <div class="image-item">
-              <img src="../assets/images/Therapisttrack.webp" alt="hello" />
+              <img src="../assets/images/IAmHumanBot.webp" alt="hello" />
             </div>
             <div class="image-item">
               <img src="../assets/images/Jlisp.webp" alt="hello" />
@@ -39,7 +39,7 @@
       <div class="info-track" :style="itemIndexStyle">
         <ProjectItem
           title="Therapisttrack"
-          description="A medical records storage system. I'm the current project leader for this project under development."
+          description="A medical records storage system writen in Node, Vue and Mongo. I'm the current project leader, helping out in UI Design, Backend Testing, CI/CD implementation and DB management."
           link="https://github.com/TherapistTrack/Therapisttrack-App"
         />
         <ProjectItem
